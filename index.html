@@ -4,49 +4,100 @@
     	<meta charset="utf-8">
     	<title>Vietnamfood</title>
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    </head>
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Yellowtail&display=swap" rel="stylesheet">
+	</head>
     <body>
-    	<header class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-around">
-    		<div id="navbarSupportedContent">
-			  	<ul class="navbar-nav mr-auto">
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#About us">About us</a>
+    	<header class="navbar navbar-expand-lg fixed-top navbar-dark justify-content-around">
+			<a class="navbar-toggler" href="#home" style="font-family:'Yellowtail', cursive; font-size: 40px;">Vietnamfood</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeaderToggler" aria-controls="navbarHeaderToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarHeaderToggler">
+				<ul class="navbar-nav pull-sm-left" >
+					<li>
+			        	<a class="nav-link" href="./test.html">Giới thiệu</a>
 			      	</li>
 			      	
-			      	<li class="nav-item dropdown">
+			      	<li class="dropdown" >
 				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Menu
+				          Công thức
 				        </a>
 				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="#">Action</a>
-				          <a class="dropdown-item" href="#">Another action</a>
-				          <div class="dropdown-divider"></div>
-				          <a class="dropdown-item" href="#">Something else here</a>
+				          <a class="dropdown-item" href="#">Món ăn truyền thống</a>
+				          <a class="dropdown-item" href="#">Thức ăn nhanh</a>
 				        </div>
 				     </li>
 					
-			      	<li class="nav-item">
-			      		<a class="nav-link" href="#">Reservation</a>
+			      	<li>
+			      		<a class="nav-link" href="#" class="headerfont">Đặt hàng</a>
 			      	</li>
-			    </ul>
-			</div>
-  			<div class="p-2 bd-highlight">
-  				<a class="navbar-brand" href="###">Vietnamfood</a>
-  			</div>
-  			<div>
-			  	<ul class="navbar-nav mr-auto">
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">News & Events</a>
-			      	</li>
-			      	<li class="nav-item">
-			        	<a class="nav-link" href="#">Gallery</a>
-			      	</li>
-			      	<li class="nav-item">
-			      		<a class="nav-link" href="#">Contact</a>
-			      	</li>
-			    </ul>
-			</div>
-    	</header>
+				</ul>
 
+				<a class="navbar-link mx-auto navbar-nav navbar-center" href="#home" style="font-family:'Yellowtail', cursive; font-size: 40px; color: aliceblue;">Vietnamfood</a>
+
+				<ul class="navbar-nav pull-sm-right">
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Tin tức & sự kiện</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Kho ảnh</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Liên hệ</a>
+					</li>
+			  </ul>
+			</div>
+			<!-- 
+			<div id="navbar" class="navbar-collapse collapse">
+			  	<ul class="nav navbar-nav navbar-left">
+			      	<li>
+			        	<a class="nav-link" href="#About us">Giới thiệu</a>
+			      	</li>
+			      	
+			      	<li class="dropdown" >
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Công thức
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Món ăn truyền thống</a>
+				          <a class="dropdown-item" href="#">Thức ăn nhanh</a>
+				        </div>
+				     </li>
+					
+			      	<li>
+			      		<a class="nav-link" href="#" class="headerfont">Đặt hàng</a>
+			      	</li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Tin tức & sự kiện</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Kho ảnh</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Liên hệ</a>
+					</li>
+			  </ul>
+			</div> -->
+		</header>
+		<div class="bg">
+			<div class="center">
+				<p>CAFÉ / RESTAURANT</p> <br>
+				<p style="font-family:'Yellowtail', cursive; font-size: 60px;">Vietnamfood</p> <br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illo, alias animi iusto neque, sint <br>
+				corrupti? Laudantium, dignissimos id excepturi facilis, facere saepe quasi placeat <br>
+				praesentium ipsa sapiente illo molestiae?
+			</div>
+		</div>
+		
+
+		<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
