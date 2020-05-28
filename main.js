@@ -1,4 +1,4 @@
 // Change color on scroll
 $(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
 });
