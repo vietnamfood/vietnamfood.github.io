@@ -3,6 +3,11 @@ header, html {
     font-size: 18px;
 }
 
+.dropdown-item:hover{
+    background-color: #20272F;
+    color: whitesmoke;
+}
+
 /* ==========================custom============================== */
 /* CSS used here will be applied after bootstrap.css */
 
@@ -16,6 +21,9 @@ header, html {
     background: #20272F !important;
 }
 
+.nav-link{
+    color: whitesmoke !important;
+}
 
 /* ==========================custom============================== */
 
