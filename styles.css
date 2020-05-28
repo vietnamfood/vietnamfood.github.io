@@ -3,6 +3,22 @@ header, html {
     font-size: 18px;
 }
 
+/* ==========================custom============================== */
+/* CSS used here will be applied after bootstrap.css */
+
+.bg-dark{
+    transition: 400ms ease-out;
+    background: transparent !important;
+}
+
+/* Dùng dấu .  */
+.bg-dark.scrolled{
+    background: #20272F !important;
+}
+
+
+/* ==========================custom============================== */
+
 body, html {
     height: 100%;
 }
@@ -11,22 +27,34 @@ div > h2{
     color: white;
 }
 
-div.bg{
+
+div.wallpage {
     height:100%;
-    position:relative;
+    position: relative;
 }
 
-div.bg:before{
+/* make parallaxing cover image */
+div.wallpage:before {
+    /* The image used */
+    background-image: url("./img/1.jpg");
+  
+    /* Set a specific height */
+    min-height: 850px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     content:'';
     position:absolute;
-    background-image:url(./img/1.jpg); 
-    background-repeat:no-repeat; 
-    background-size: cover; 
     filter:brightness(0.5); 
     -webkit-filter:brightness(0.5);    
     left:0;top:0;bottom:0;right:0; 
     z-index:-1;
 }
+
 
 .center {
     position: absolute;
@@ -36,4 +64,4 @@ div.bg:before{
     transform: translate(-50%, -50%);
     font-size: 18px;
     color: white;
-}
+} 
