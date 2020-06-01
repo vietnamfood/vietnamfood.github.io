@@ -26,6 +26,20 @@
 
 /* ==========================custom============================== */
 
+
+#menu .section-title {
+	background: url(./img/menu-bg.jpg) center  no-repeat fixed;
+    background-size: cover;
+    min-height: 260px;
+    max-height: 400px;
+}
+
+.section-title .overlay {
+	padding: 80px 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: azure;
+}
+
 body, html {
     height: 100%;
 }
@@ -34,9 +48,6 @@ body, html {
     box-shadow: 0 10px 40px rgba(150, 172, 177, 0.8);
 }
 
-div > h2{
-    color: white;
-}
 
 
 div.wallpage {
