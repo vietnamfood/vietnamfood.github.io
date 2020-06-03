@@ -5,7 +5,7 @@
     color: whitesmoke;
 }
 
-/* ==========================custom============================== */
+/* ========================== custom navbar ============================== */
 
 .bg-dark{
     transition: 400ms ease-out;
@@ -17,14 +17,14 @@
 /* #20272F */
 /* Dùng dấu .  */
 .bg-dark.scrolled{
-    background:  #20272F !important;
+    background:  #201f1e !important;
 	padding: 0px !important;
 }
 .header-nav-link{
     color: whitesmoke !important;
 } 
 
-/* ==========================custom============================== */
+/* ==========================custom navbar============================== */
 
 
 #menu .section-title {
@@ -48,7 +48,42 @@ body, html {
     box-shadow: 0 10px 40px rgba(150, 172, 177, 0.8);
 }
 
+/*================= menu =======================*/
+.image-cap {
+    min-height: 180px;
+    margin-top: 0.25rem;
+}
 
+.caption .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.caption:hover .overlay {
+    opacity: 1;
+}
+
+.image-cap-txt {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*==============================================*/
 
 div.wallpage {
     height:100%;
@@ -77,6 +112,32 @@ div.wallpage:before {
     z-index:-1;
 }
 
+div.menu-background {
+    height:100%;
+    position: relative;
+}
+
+div.menu-background:before {
+    /* The image used */
+    background-image: url("./img/15.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    content:'';
+    position:absolute;
+    filter:brightness(0.8); 
+    -webkit-filter:brightness(0.4);    
+    left:0;top:0;bottom:0;right:0; 
+    z-index:-1;
+}
+
 
 .center {
     position: absolute;
@@ -87,3 +148,30 @@ div.wallpage:before {
     font-size: 18px;
     color: white;
 } 
+
+.card-header {
+    background-color: antiquewhite;
+    color: #11100f;
+    text-align: center;
+    font-size: large;
+}
+
+ul {
+    list-style: square inside url(./img/icons/list-style-image.png);
+}
+
+/*============= footer ================*/
+.footer {
+    background-color: #201f1e;
+    color: blanchedalmond;
+}
+
+.footer-link {
+    background-color: #00ad56;
+    padding: 30px;
+}
+
+.footer-copyright{
+    background-color:#11100f;
+}
+/*=====================================*/
