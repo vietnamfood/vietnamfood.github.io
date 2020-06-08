@@ -44,9 +44,8 @@ body, html {
     height: 100%;
 }
 
-.body-navbar {
-    box-shadow: 0 10px 40px rgba(150, 172, 177, 0.8);
-}
+
+
 
 /*================= menu =======================*/
 .image-cap {
@@ -83,6 +82,16 @@ body, html {
     text-align: center;
 }
 
+
+.menu-navbar ul li a{
+    color: #11100f; 
+}
+
+.menu-navbar ul li a:hover{
+    background-color: #11100f;
+    color: #eef3ed; 
+    text-decoration: underline;
+}
 /*==============================================*/
 
 div.wallpage {

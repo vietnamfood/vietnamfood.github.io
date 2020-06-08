@@ -87,6 +87,26 @@
 				</div>
 			</div>
 			<div class="menu-container" id="#congthuc">
+				<!-- Menu navigation bar -->
+				<nav class="menu-navbar py-sm-5">
+				    <ul class="nav justify-content-center">
+					  	<li class="nav-item">
+					    	<a class="nav-link active" href="#congthuc">MAIN</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#congthuc">LUNCH</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#congthuc">DINNER</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" href="#congthuc">DRINK</a>
+					  	</li>
+					</ul>
+				</nav>
+				<!-- ================================ Menu navigation bar ================================ -->
+
+				<!-- Menu Container -->
 				<div class="row justify-content-around">
 					<div class="card mb-3 shadow" style="max-width: 685px;">
 						<div class="row no-gutters">
@@ -391,7 +411,7 @@
 		<script>
 			// Change color on scroll
 			$(window).scroll(function(){
-				$('nav').toggleClass('scrolled', $(this).scrollTop() > 10);
+				$('header nav').toggleClass('scrolled', $(this).scrollTop() > 10);
 			});
 		</script>
 	</body>
