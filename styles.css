@@ -34,6 +34,20 @@
     max-height: 400px;
 }
 
+#materials .section-title {
+    background: url(./img/11.jpg) center  no-repeat fixed;
+    background-size: cover;
+    min-height: 260px;
+    max-height: 400px;
+}
+
+#stepbystep .section-title {
+    background: url(./img/15.jpg) center  no-repeat fixed;
+    background-size: cover;
+    min-height: 260px;
+    max-height: 400px;
+}
+
 .section-title .overlay {
 	padding: 80px 0;
     background: rgba(0, 0, 0, 0.7);
@@ -92,6 +106,13 @@ body, html {
     color: #eef3ed; 
     text-decoration: underline;
 }
+
+
+.menu-navbar ul li .active{
+    background-color: #11100f;
+    color: #eef3ed; 
+    text-decoration: underline;
+}
 /*==============================================*/
 
 div.wallpage {
@@ -128,7 +149,7 @@ div.menu-background {
 
 div.menu-background:before {
     /* The image used */
-    background-image: url("./img/15.jpg");
+    background-image: url("./img/36.jpg");
   
     /* Set a specific height */
     min-height: 600px; 
