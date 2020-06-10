@@ -109,9 +109,7 @@ body, html {
 
 
 .menu-navbar ul li .active{
-    background-color: #11100f;
-    color: #eef3ed; 
-    text-decoration: underline;
+    color: #e59706; 
 }
 /*==============================================*/
 
