@@ -81,10 +81,10 @@ $("li#main-btn").click(function(){
 	$("#food-9 .col-md-8 .card-body .describle").text("Salad Tôm Hùm , món ngon dễ làm cho bạn, chỉ trong tích tắc. Giải cứu tôm hùm miền Trung, áp dụng ngay cách làm salad tôm hùm kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn. Đảm bảo các bé nhà bạn sẽ thấy thích thú.")
 	$("#food-9 .col-md-8 .card-body .date .text-muted").text("Last updated 7/6/2020")
 
-	$("#food-10 div div img").attr("src", "./img/food/xucxichphomai/cooky-recipe-cover-r39840.jpg")	
-	$("#food-10 div div div a").attr("href","./pages/xucxichphomai.html")
-	$("#food-10 .col-md-8 .card-body .card-title").text("Xúc xích phô mai")
-	$("#food-10 .col-md-8 .card-body .describle").text("Xúc xích phô mai là món ăn vặt chiên giòn tan được áo một lớp bột và khoai tây bên ngoài, ăn kèm tương cà và sốt mayonnaise ngon lành. Các bạn lưu lại cách làm ngay nhé!")
+	$("#food-10 div div img").attr("src", "./img/food/lechung/0.jpg")	
+	$("#food-10 div div div a").attr("href","./pages/lechungthanhmat.html")
+	$("#food-10 .col-md-8 .card-body .card-title").text("Lê chưng thanh mát")
+	$("#food-10 .col-md-8 .card-body .describle").text("Lê Chưng Thanh Mát - được dân gian ví như bài thuốc trị ho khan hiệu quả. Với vị nóng, cay của gừng và quế làm sạch họng, kháng viêm, kết hợp với vị thanh mát của lê và vị ngọt dịu của mật ong sẽ giúp dễ dùng cho mọi lứa tuổi, nhất là trẻ em. Sự kết hợp hài hòa, cân đối này giúp tạo thành bài thuốc giúp trị ho, giảm đau họng hiệu quả.")
 	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
 
 	
@@ -103,17 +103,66 @@ $("li#lunch-btn").click(function(){
 	loadContainer();
 
 	//food attr
-	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
-	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
-	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
-	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
-	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+	$("#food-1 div div img").attr("src", "./img/food/bachtuocphomai/bachtuoc.jpeg")	
+	$("#food-1 div div div a").attr("href","./pages/bachtuocsotbophomaicay.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bạch tuộc sốt bơ phô mai cay")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bạch tuộc sốt bơ phô mai cay là món ăn ngon và rất được giới trẻ ưa thích, cũng là một món lai rai lý tưởng cho những ngày mưa lạnh. Xé miếng bánh mì chấm vào sốt bơ cay, nhẹ nhàng cảm nhận hương vị cay the và beo béo ngay đầu lưỡi, thêm những miếng bạch tuộc giòn sật rất vui miệng.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 8/6/2020")
 
-	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
-	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
-	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
-	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
-	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+	$("#food-2 div div img").attr("src", "./img/food/calocnuong/0.jpg")	
+	$("#food-2 div div div a").attr("href","./pages/calocnuongriengme.html")
+	$("#food-2 .col-md-8 .card-body .card-title").text("Cá lóc nướng riềng mè")
+	$("#food-2 .col-md-8 .card-body .describle").text("Cá lóc hay còn gọi là cá quả nướng riềng mẻ là một món ăn ngon, được nhiều người yêu thích và lựa chọn cho bữa tiệc gia đình nhà mình hoặc khi ra nhà hàng. Với bí quyết ướp thịt cá dậy mùi và đậm vị, công thức này đảm bảo sẽ làm bạn hài lòng và chỉ muốn ở nhà tự ướp nướng thôi đấy.")
+	$("#food-2 .col-md-8 .card-body .date .text-muted").text("Last updated 12/6/2020")
+
+	$("#food-3 div div img").attr("src", "./img/food/canhchuacaithao.jpg")	
+	$("#food-3 div div div a").attr("href","./pages/canhchuacaithao.html")
+	$("#food-3 .col-md-8 .card-body .card-title").text("Canh chua cải thảo")
+	$("#food-3 .col-md-8 .card-body .describle").text("Vào những ngày nắng nóng hay trời mưa, thì có 1 tô canh chua cũng rất là hợp lý. Món này không tốn nhiều chi phí. Món Canh chua cải thảo này bạn còn có thể thay thế cải thào bằng bắp cải hoặc rau muống, để thay thế hàng ngày.")
+	$("#food-3 .col-md-8 .card-body .date .text-muted").text("Last updated 6/3/2020")
+
+	$("#food-4 div div img").attr("src", "./img/food/canhmongtoi/0.jpg")	
+	$("#food-4 div div div a").attr("href","./pages/canhcuadongmongtoi.html")
+	$("#food-4 .col-md-8 .card-body .card-title").text("Canh cua đồng mồng tơi")
+	$("#food-4 .col-md-8 .card-body .describle").text("Món canh cua đồng đơn giản, dễ nấu nhưng đậm đà hương vị, hãy thêm món này vào thực đơn bữa ăn hằng ngày của các bạn để tạo thêm hương vị phong Phú cho bữa ăn gia đình bạn nhé.")
+	$("#food-4 .col-md-8 .card-body .date .text-muted").text("Last updated 11/6/2020")
+
+    $("#food-5 div div img").attr("src", "./img/food/canhgachiennuocmam/0.jpg")	
+	$("#food-5 div div div a").attr("href","./pages/canhgachiennuocmam.html")
+	$("#food-5 .col-md-8 .card-body .card-title").text("Cánh gà chiên nước mắm")
+	$("#food-5 .col-md-8 .card-body .describle").text("Cà chiên nước mắm là món ăn ngon cho bữa cơm gia đình. Có nhiều cách làm cánh gà chiên nước mắm ngon nhưng để thịt gà chín mềm và ngấm đều gia vị thì phải có định lượng ngon chuẩn vị.")
+	$("#food-5 .col-md-8 .card-body .date .text-muted").text("Last updated 6/3/2020")
+
+	$("#food-6 div div img").attr("src", "./img/food/chagiotom/0.jpg")	
+	$("#food-6 div div div a").attr("href","./pages/chagiotom.html")
+	$("#food-6 .col-md-8 .card-body .card-title").text("Chả giò tôm")
+	$("#food-6 .col-md-8 .card-body .describle").text("Món chả giò tomyum giòn thơm ở phần vỏ kết hợp với vị ngọt bùi của tôm mực sẽ tạo hương vị thơm ngon ngây ngất khi bạn thưởng thức. Chỉ trong một thời gian ngắn và vài thao tác đơn giản là bạn đã có ngay một món ăn đầy bổ dưỡng, thơm ngon cho cả gia đình")
+	$("#food-6 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
+
+	$("#food-7 div div img").attr("src", "./img/food/goidudusohuyet/0.jpg")	
+	$("#food-7 div div div a").attr("href","./pages/goidudusohuyet.html")
+	$("#food-7 .col-md-8 .card-body .card-title").text("Gỏi đu đủ sò huyết")
+	$("#food-7 .col-md-8 .card-body .describle").text("Sò huyết là một món hải sản thơm ngon, có thể kết hợp với nhiều nguyên liệu khác nhau để cho ra các món ngon tuyệt. Hôm nay mình xin giới thiệu 1 món mới đó là gỏi đu đủ sò huyết, với vị giòn giòn của đu đủ, chua cay mặn ngọt của nước sốt và vị ngon đặt trưng của sò huyết sẽ khiến bạn muốn ăn mãi không thôi.")
+	$("#food-7 .col-md-8 .card-body .date .text-muted").text("Last updated 3/6/2020")
+
+	$("#food-8 div div img").attr("src", "./img/food/khoquetchamraucu/khoquet.jpg")	
+	$("#food-8 div div div a").attr("href","./pages/khoquetchamraucu.html")
+	$("#food-8 .col-md-8 .card-body .card-title").text("Kho quẹt chấm rau củ")
+	$("#food-8 .col-md-8 .card-body .describle").text("Kho quẹt chấm rau củ là món ngon dân dã của người miền Tây. Cách làm kho quẹt với vị âm ấm, thơm nồng mùi nước mắm, kết hợp từ nguyên liệu thịt heo beo béo, dai dai, tôm khô mềm mềm rất đặc trưng. Đặc biệt, với cách làm kho quẹt chấm rau củ ngon đúng điệu miền Tây này, bữa cơm của gia đình sẽ vô cùng thơm ngon, lại hứa hẹn sẽ rất đưa cơm đấy nhé!")
+	$("#food-8 .col-md-8 .card-body .date .text-muted").text("Last updated 12/6/2020")
+
+	$("#food-9 div div img").attr("src", "./img/food/thitheothom/0.jpg")	
+	$("#food-9 div div div a").attr("href","./pages/thitheokhothom.html")
+	$("#food-9 .col-md-8 .card-body .card-title").text("Thịt heo kho thơm")
+	$("#food-9 .col-md-8 .card-body .describle").text("Một món ăn dân dã quen thuộc trong bữa ăn gia đình, mang vị mặn, chua, ngọt hài hòa rất thú vị và đặc biệt. Ngoài ra, với nguyên liệu là thơm (Dứa) còn có tác dụng kích thích tiêu hóa, dễ tiêu.")
+	$("#food-9 .col-md-8 .card-body .date .text-muted").text("Last updated 11/6/2020")
+
+	$("#food-10 div div img").attr("src", "./img/food/tomxoctoiot/tomxoctoiot.jpg")	
+	$("#food-10 div div div a").attr("href","./pages/tomxoctoiot.html")
+	$("#food-10 .col-md-8 .card-body .card-title").text("Tôm xốc tỏi ớt")
+	$("#food-10 .col-md-8 .card-body .describle").text("Nếu đang cần mồi bén để nhắm cùng bia thì chắc chắn món Tôm xóc tỏi của mình là số một rồi. Không quá cầu kỳ và mất thời gian như những món khác, chỉ cần tôm tươi, tỏi thôi là món ngon sẵn trên bàn nhậu rồi. Thử làm cùng mình và cho mình một ít nhận xét nha.")
+	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 6/3/2020")
+
 })
 
 
