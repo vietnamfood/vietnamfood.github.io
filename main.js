@@ -35,7 +35,7 @@ $("li#main-btn").click(function(){
 	
 	$("#food-2 div div img").attr("src", "./img/food/banhmikhoailangtim/banhmi.jpeg")	
 	$("#food-2 div div div a").attr("href","./pages/banhmikhoailangtim.html")
-	$("#food-2 .col-md-8 .card-body .card-title").text("Bnah1 mì khoai lang tím")
+	$("#food-2 .col-md-8 .card-body .card-title").text("Bánh mì khoai lang tím")
 	$("#food-2 .col-md-8 .card-body .describle").text("Vào những dịp cuối tuần sum họp của gia đình, hoặc những ngày lễ như Tết Trung thu, bạn có muốn làm một món bánh thơm ngon để thưởng thức cùng với những người thân thương trong gia đình. Mọi người cùng nhau nhâm nhi miếng bánh, uống một tách trà nóng, cùng nhau trò chuyện, tăng không gian gần gũi và ấm cúng. Cooky xin giới thiệu cho bạn món Bánh mì khoai lang tím vừa dễ làm lại thơm mềm, vừa đẹp mắt sẽ làm hấp dẫn cả nhà đấy. Tham khảo cách làm bánh mì khoai lang tím dưới đây bạn nhé!")
 	$("#food-2 .col-md-8 .card-body .date .text-muted").text("Last updated 12/6/2020")
 
@@ -81,11 +81,11 @@ $("li#main-btn").click(function(){
 	$("#food-9 .col-md-8 .card-body .describle").text("Salad Tôm Hùm , món ngon dễ làm cho bạn, chỉ trong tích tắc. Giải cứu tôm hùm miền Trung, áp dụng ngay cách làm salad tôm hùm kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn. Đảm bảo các bé nhà bạn sẽ thấy thích thú.")
 	$("#food-9 .col-md-8 .card-body .date .text-muted").text("Last updated 7/6/2020")
 
-	$("#food-10 div div img").attr("src", "./img/food/lechung/0.jpg")	
-	$("#food-10 div div div a").attr("href","./pages/lechungthanhmat.html")
-	$("#food-10 .col-md-8 .card-body .card-title").text("Lê chưng thanh mát")
-	$("#food-10 .col-md-8 .card-body .describle").text("Lê Chưng Thanh Mát - được dân gian ví như bài thuốc trị ho khan hiệu quả. Với vị nóng, cay của gừng và quế làm sạch họng, kháng viêm, kết hợp với vị thanh mát của lê và vị ngọt dịu của mật ong sẽ giúp dễ dùng cho mọi lứa tuổi, nhất là trẻ em. Sự kết hợp hài hòa, cân đối này giúp tạo thành bài thuốc giúp trị ho, giảm đau họng hiệu quả.")
-	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
+	$("#food-10 div div img").attr("src", "./img/food/bachicuon/0.jpg")	
+	$("#food-10 div div div a").attr("href","./pages/thitbachicuonnamkimcham.html")
+	$("#food-10 .col-md-8 .card-body .card-title").text("Thịt ba chỉ cuộn nấm kim châm")
+	$("#food-10 .col-md-8 .card-body .describle").text("Thịt ba chỉ hay còn được gọi là thịt ba rọi, vị đậm đà của những miếng ba chỉ hun khói thấm đượm vào những cây nấm kim châm tạo cho món ăn trở nên hấp dẫn hơn. Cùng vào bếp học cách làm thịt ba chỉ cuộn nấm kim châm ăn này nhé!")
+	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 11/6/2020")
 
 	
 })
@@ -178,17 +178,79 @@ $("li#dinner-btn").click(function(){
 	loadContainer();
 
 	//food attr
-	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
-	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
-	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
-	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
-	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+	$("#food-1 div div img").attr("src", "./img/food/canhghe/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/canhghekimchi.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Canh ghẹ kim chi")
+	$("#food-1 .col-md-8 .card-body .describle").text("Canh ghẹ kim chi món ăn có biến tấu độc đáo từ ghẹ và kim chi. Vị ngọt tự nhiên của ghẹ kết hợp vị chua cay thêm chút giòn giòn của kim chi . Bạn hãy tưởng tượng trời se se lạnh được húp chén canh ghẹ kim chi nóng hổi thì còn gì sung sướng bằng.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
 
-	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
-	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
-	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
-	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
-	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+	$("#food-2 div div img").attr("src", "./img/food/goimangcut/mangcut.jpg")	
+	$("#food-2 div div div a").attr("href","./pages/goimangcut.html")
+	$("#food-2 .col-md-8 .card-body .card-title").text("Gỏi măng cụt")
+	$("#food-2 .col-md-8 .card-body .describle").text("Gỏi măng cụt là đặc sản của vùng miệt vườn Lái Thiêu. Với những quả măng cụt thơm ngọt, mọng nước, nước chấm ngon ngọt cùng thịt gà luộc thì món ăn đặc sản này khiến không ít người phải tìm đến miền Tây để thưởng thức món ăn đặc sản đó. Nhưng hãy vào bếp cùng mình nào vì đã có sẵn công thức ngon đúng, chuẩn vị rồi đây.")
+	$("#food-2 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
+
+	$("#food-3 div div img").attr("src", "./img/food/launam/0.jpg")	
+	$("#food-3 div div div a").attr("href","./pages/launamthiennhien.html")
+	$("#food-3 .col-md-8 .card-body .card-title").text("Lẩu nấm thiên nhiên")
+	$("#food-3 .col-md-8 .card-body .describle").text("Trong các dịp sum họp gia đình hay những bữa ăn cuối tuần, thì món lẩu luôn là sự lựa chọn hàng đầu của các bà nội trợ. Nếu bạn đã ngán ngẩm với hải sản hay thịt thì lẩu nấm chính là sự gợi ý tuyệt vời dành cho bạn. Lẩu nấm thiên nhiên là một trong những loại lẩu có hương vị thanh đạm, món lẩu với sự kết hợp giữa các loại rau củ và nấm tươi giúp thanh nhiệt, bồi bổ cơ thể, cực thích hợp ăn vào những dịp đầu tháng hay rằm")
+	$("#food-3 .col-md-8 .card-body .date .text-muted").text("Last updated 11/6/2020")
+
+	$("#food-4 div div img").attr("src", "./img/food/mamtepmientay/mamtep.jpg")	
+	$("#food-4 div div div a").attr("href","./pages/mamtepmientay.html")
+	$("#food-4 .col-md-8 .card-body .card-title").text("Mắm tép miền tây")
+	$("#food-4 .col-md-8 .card-body .describle").text("Mắm Tép Miền Tây - món ăn ngon dân dã của miền đồng bằng sông nước. Cách làm mắm tép miền Tây đơn giản, những con tép tươi rói, ngâm nước mắm mặn ngọt cùng hỗn hợp riềng, tỏi, ớt... giòn sựt, cay thơm rất đặc trưng. Tự làm mắm tép chua cho gia đình vừa ngon, vừa an toàn và vệ sinh nào!")
+	$("#food-4 .col-md-8 .card-body .date .text-muted").text("Last updated 12/6/2020")
+
+	$("#food-5 div div img").attr("src", "./img/food/mucnuong/0.jpg")	
+	$("#food-5 div div div a").attr("href","./pages/mucnuongdahapbia.html")
+	$("#food-5 .col-md-8 .card-body .card-title").text("Mực nướng đá hấp bia")
+	$("#food-5 .col-md-8 .card-body .describle").text("Mực nướng đá hấp bia được hấp chín trên đá cuội giúp giữ được lượng nước và không làm mất đi nhiều chất dinh dưỡng trong từng miếng mực, và còn hấp thu thêm khoáng chất từ bia và đá cuội làm cho món ăn trở nên ngon, đặc sắc hơn. Sau đây, hãy cùng Cooky khám phá công thức món mực nướng đá hấp bia để mời cả gia đình hay bạn bè thưởng thức nhé!")
+	$("#food-5 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
+
+	$("#food-6 div div img").attr("src", "./img/food/thitkhotrungcut/7.jpg")	
+	$("#food-6 div div div a").attr("href","./pages/thitkhotrungcut.html")
+	$("#food-6 .col-md-8 .card-body .card-title").text("Thịt kho trứng cút")
+	$("#food-6 .col-md-8 .card-body .describle").text("Thịt kho trứng cút đậm đà với thịt heo ba chỉ béo dai, trứng cút bùi béo ngấm đều gia vị. Tranh thủ thời gian rỗi bạn có thể kho ngay 1 nồi to thịt kho trứng để dành hâm nóng dùng dần nhiều bữa nhé!")
+	$("#food-6 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
+
+	$("#food-7 div div img").attr("src", "./img/food/tomhapbi/0.jpg")	
+	$("#food-7 div div div a").attr("href","./pages/tomhapbingoi.html")
+	$("#food-7 .col-md-8 .card-body .card-title").text("Tôm hấp bí ngòi")
+	$("#food-7 .col-md-8 .card-body .describle").text("Tôm hấp bí ngòi là món ăn đơn giản, thanh đạm nhưng không kém phần bổ dưỡng và hấp dẫn. Tôm bóc vỏ, nhồi trong bí ngồi khoét ruột cùng với thịt băm và gia vị, đem hấp chín.")
+	$("#food-7 .col-md-8 .card-body .date .text-muted").text("Last updated 11/6/2020")
+
+	$("#food-8 div div img").attr("src", "./img/food/tomvienusenchiengion/tomviencusenchiengion.jpg")	
+	$("#food-8 div div div a").attr("href","./pages/tomviencusenchiengion.html")
+	$("#food-8 .col-md-8 .card-body .card-title").text("Tôm viên củ sen chiên giòn")
+	$("#food-8 .col-md-8 .card-body .describle").text("Một chút biến tấu với củ sen thanh ngọt và thịt tôm được bọc bởi một lớp bột giòn xù sẽ đem lại cảm giác thích thú ngay từ cái nhìn đầu tiên. Món tôm viên củ sen chiên giòn đã tạo nên sự kết hợp hài hòa giữa hải sản và củ sen tạo nên một phong cách ẩm thực mới mẻ lạ miệng cho gia đình bạn thưởng thức vào ngày cuối tuần đấy.")
+	$("#food-8 .col-md-8 .card-body .date .text-muted").text("Last updated 5/6/2020")
+
+	$("#food-9 div div img").attr("src", "./img/food/gaviensotcachua/0.jpg")	
+	$("#food-9 div div div a").attr("href","./pages/gaviensotcachua.html")
+	$("#food-9 .col-md-8 .card-body .card-title").text("Gà viên sốt cà chua")
+	$("#food-9 .col-md-8 .card-body .describle").text("Gà viên sốt cà chua là món ăn có cách chế biến không cầu kì nhưng lại vô cùng hấp dẫn. Gà viên dai dai nhưng lại mềm thịt hoà quyện với sốt cà chua ngọt, làm tăng thêm hương vị cho bữa cơm gia đình.")
+	$("#food-9 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+
+	$("#food-10 div div img").attr("src", "./img/food/mucsate/0.jpg")	
+	$("#food-10 div div div a").attr("href","./pages/mucxaosate.html")
+	$("#food-10 .col-md-8 .card-body .card-title").text("Mực xào sa tế")
+	$("#food-10 .col-md-8 .card-body .describle").text("Mực Xào Sa Tế - món ngon cho bữa cơm gia đình hay dịp tụ họp bạn bè. Vị giòn tươi của mực, thanh mát của các loại rau củ kết hợp với vị cay nồng của sa tế, tất cả hoà quyện lại với nhau tạo nên món ăn siêu kích thích vị giác. Hãy cùng Cooky chuẩn bị nguyên liệu và bắt tay vào làm ngay thôi. ")
+	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
+
+	$("#food-10 div div img").attr("src", "./img/food/lechung/0.jpg")	
+	$("#food-10 div div div a").attr("href","./pages/lechungthanhmat.html")
+	$("#food-10 .col-md-8 .card-body .card-title").text("Lê chưng thanh mát")
+	$("#food-10 .col-md-8 .card-body .describle").text("Lê Chưng Thanh Mát - được dân gian ví như bài thuốc trị ho khan hiệu quả. Với vị nóng, cay của gừng và quế làm sạch họng, kháng viêm, kết hợp với vị thanh mát của lê và vị ngọt dịu của mật ong sẽ giúp dễ dùng cho mọi lứa tuổi, nhất là trẻ em. Sự kết hợp hài hòa, cân đối này giúp tạo thành bài thuốc giúp trị ho, giảm đau họng hiệu quả.")
+	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
+
+	$("#food-10 div div img").attr("src", "./img/food/launhungxienque/0.jpg")	
+	$("#food-10 div div div a").attr("href","./pages/launhungxienque.html")
+	$("#food-10 .col-md-8 .card-body .card-title").text("Lẩu nhúng xiên que")
+	$("#food-10 .col-md-8 .card-body .describle").text("Cuối tuần ở nhà chưa biết ăn gì, hãy thử ngay món Lẩu nhúng xiên que siêu hấp dẫn dưới đây. Với nước dùng lẩu kim chi quen thuộc, nhưng có thêm sự kết hợp của các loại xiên que hấp dẫn, nhúng cùng thịt bò và râu mực đảm bảo sẽ là sự lựa chọn tuyệt vời cho gia đình bạn cuối tuần.")
+	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 6/3/2020")
+
+
 
 })
 
