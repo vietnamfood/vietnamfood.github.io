@@ -181,11 +181,15 @@ $("li#fastfood-btn").click(function(){
 	loadContainer();
 
 	//food attr
-	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
-	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
-	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
-	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
-	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+	$("#food-1 div div img").attr("src", "./img/food/banhkem/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhkemredvelvet.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh kem Red Velvet")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh Red Velvet là sự kết hợp hài hòa của từng lớp bánh đỏ thắm đan xen với những lớp kem trắng mịn, bồng bềnh trông thật thích mắt và ngon miệng.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 12/06/2020")
 	
-
+	$("#food-2 div div img").attr("src", "./img/food/banhlantranchau/0.jpg")	
+	$("#food-2 div div div a").attr("href","./pages/banhlantrasua.html")
+	$("#food-2 .col-md-8 .card-body .card-title").text("Bánh plan trà sữa")
+	$("#food-2 .col-md-8 .card-body .describle").text("Bạn thích bánh flan, bạn cũng thích nhâm nhi trà sữa với trân châu đường nâu ngọt lịm. Kết hợp 2 món ăn hấp dẫn này lại với nhau để tạo thành món bánh flan trà sữa trân châu đường đen hấp dẫn.")
+	$("#food-2 .col-md-8 .card-body .date .text-muted").text("Last updated 12/06/2020")
 })
