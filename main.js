@@ -33,9 +33,11 @@ $("li#main-btn").click(function(){
 	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
 	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
 	
-	$("#food-2 div div img").attr("src", "./img/food/hutieumytho/0.jpg")	
-	$("#food-2 div div div a").attr("href","./pages/hutieucuamytho.html")
-	$("#food-2 .col-md-8 .card-body .card-title").text("Hủ tiếu cua Mỹ Tho")
+	$("#food-2 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-2 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-2 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-2 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-2 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
 
 })
 
@@ -52,9 +54,17 @@ $("li#lunch-btn").click(function(){
 	loadContainer();
 
 	//food attr
-	$("#food-1 div div img").attr("src", "./img/food/canhchuacaithao.jpg")	
-	$("#food-1 div div div a").attr("href","./pages/canhchuacaithao.html")
-	$("#food-1 .col-md-8 .card-body .card-title").text("Canh chua cải thảo")
+	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+
+	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
 })
 
 
@@ -70,6 +80,18 @@ $("li#dinner-btn").click(function(){
 	loadContainer();
 
 	//food attr
+	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+
+	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+
 })
 
 
@@ -85,6 +107,17 @@ $("li#drink-btn").click(function(){
 	loadContainer();
 
 	//food attr
+	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+
+	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
 	
 })
 
@@ -101,4 +134,11 @@ $("li#fastfood-btn").click(function(){
 	loadContainer();
 
 	//food attr
+	$("#food-1 div div img").attr("src", "./img/food/banhmichao/0.jpg")	
+	$("#food-1 div div div a").attr("href","./pages/banhmichao.html")
+	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh mì chảo")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.")
+	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 6/6/2020")
+	
+
 })
