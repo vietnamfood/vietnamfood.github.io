@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
 	</head>
-    <body>
+    <body onload="loadContainer()">
 		<!-- header with navigation bar -->
 		<header>
 			<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark px-md-5">
@@ -115,6 +115,8 @@
 				<!-- ================================ Menu navigation bar ================================ -->
 
 			<!-- ============================================================ Menu Container ============================================================ -->
+			
+			<div id="menu-container" class="animate-bottom">
 				<!-- row 1 -->
 				<div class="row justify-content-around">
 					<div id="food-1" class="card mb-3 shadow" style="max-width: 685px;">
@@ -123,13 +125,13 @@
 								<img id="food-1-img" src="./img/food/banhmichao/0.jpg" class="image-cap card-img" alt="Bánh mì chảo">
 								<div class="overlay">
 									<a href="./pages/banhmichao.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Bánh mì chảo</h5>
-								    <p class="card-text">Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 6/6/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Bánh mì chảo</h5>
+									<p class="card-text describle">Bánh mì chảo là món ăn buổi sáng được hầu hết mọi người ưa thích.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 6/6/2020</small></p>
 								</div>
 							</div>
 						</div>
@@ -140,19 +142,19 @@
 								<img src="./img/food/hutieumytho/0.jpg" class="image-cap card-img" alt="Hủ tiếu cua Mỹ Tho">
 								<div class="overlay">
 									<a href="./pages/hutieucuamytho.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Hủ tiếu cua Mỹ Tho</h5>
-								    <p class="card-text">Hủ tiếu cua Mỹ Tho được nhắc đến như một đặc sản của Mỹ Tho.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 8/6/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Hủ tiếu cua Mỹ Tho</h5>
+									<p class="card-text describle">Hủ tiếu cua Mỹ Tho được nhắc đến như một đặc sản của Mỹ Tho.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 8/6/2020</small></p>
 								</div>
 							</div>
 						</div>
 					</div>	
 				</div>
-				
+
 				<!-- row 2 -->
 				<div class="row justify-content-around">
 					<div id="food-3" class="card mb-3 shadow" style="max-width: 685px;">
@@ -161,13 +163,13 @@
 								<img src="./img/food/nuino/0.jpg" class="image-cap card-img" alt="Nui nơ nấu thịt bằm">
 								<div class="overlay">
 									<a href="./pages/nuoinonauthitbam.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Nui nơ nấu thịt bằm</h5>
-								    <p class="card-text">Nui Nơ Nấu Thịt Bằm là món ăn sáng nhanh gọn, mới lạ thay cho món nui truyền thống.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 7/6/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Nui nơ nấu thịt bằm</h5>
+									<p class="card-text describle">Nui Nơ Nấu Thịt Bằm là món ăn sáng nhanh gọn, mới lạ thay cho món nui truyền thống.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 7/6/2020</small></p>
 								</div>
 							</div>
 						</div>
@@ -178,19 +180,19 @@
 								<img src="./img/food/canhgachiennuocmam/0.jpg" class="image-cap card-img" alt="Cánh gà chiên nước mắm">
 								<div class="overlay">
 									<a href="./pages/canhgachiennuocmam.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Cánh gà chiên nước mắm</h5>
-								    <p class="card-text">Cánh gà chiên nước mắm là món ăn ngon cho bữa cơm gia đình.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 5/6/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Cánh gà chiên nước mắm</h5>
+									<p class="card-text describle">Cánh gà chiên nước mắm là món ăn ngon cho bữa cơm gia đình.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 5/6/2020</small></p>
 								</div>
 							</div>
 						</div>
 					</div>	
 				</div>
-				
+
 				<!-- row 3 -->
 				<div class="row justify-content-around">
 					<div id="food-5" class="card mb-3 shadow" style="max-width: 685px;">
@@ -199,13 +201,13 @@
 								<img src="./img/food/goidudusohuyet/0.jpg" class="image-cap card-img" alt="Gỏi đu đủ sò huyết">
 								<div class="overlay">
 									<a href="./pages/goidudusohuyet.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Gỏi đu đủ sò huyết</h5>
-								    <p class="card-text">Sò huyết là một món hải sản thơm ngon, có thể kết hợp với nhiều nguyên liệu khác nhau để cho ra các món ngon tuyệt.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 06/06/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Gỏi đu đủ sò huyết</h5>
+									<p class="card-text describle">Sò huyết là một món hải sản thơm ngon, có thể kết hợp với nhiều nguyên liệu khác nhau để cho ra các món ngon tuyệt.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 06/06/2020</small></p>
 								</div>
 							</div>
 						</div>
@@ -216,19 +218,19 @@
 								<img src="./img/food/mitepmo/0.jpg" class="image-cap card-img" alt="Mì trộn tóp mỡ">
 								<div class="overlay">
 									<a href="./pages/mitrontopmo.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Mì trộn tóp mỡ</h5>
-								    <p class="card-text">Mì Trộn Tóp Mỡ, món ăn với cách chế biến đơn giản nhưng hương vị đặc sắc vô cùng.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 7/6/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Mì trộn tóp mỡ</h5>
+									<p class="card-text describle">Mì Trộn Tóp Mỡ, món ăn với cách chế biến đơn giản nhưng hương vị đặc sắc vô cùng.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 7/6/2020</small></p>
 								</div>
 							</div>
 						</div>
 					</div>	
 				</div>
-				
+
 				<!-- row 4 -->
 				<div class="row justify-content-around">
 					<div id="food-7" class="card mb-3 shadow" style="max-width: 685px;">
@@ -237,13 +239,13 @@
 								<img src="./img/food/thitkhotrungcut/7.jpg" class="image-cap card-img" alt="Thịt kho trứng cút">
 								<div class="overlay">
 									<a href="./pages/thitkhotrungcut.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Thịt kho trứng cút</h5>
-								    <p class="card-text">Thịt kho trứng cút đậm đà với thịt heo ba chỉ béo dai, trứng cút bùi béo ngấm đều gia vị.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 06/06/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Thịt kho trứng cút</h5>
+									<p class="card-text describle">Thịt kho trứng cút đậm đà với thịt heo ba chỉ béo dai, trứng cút bùi béo ngấm đều gia vị.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 06/06/2020</small></p>
 								</div>
 							</div>
 						</div>
@@ -254,19 +256,19 @@
 								<img src="./img/food/gaviensotcachua/0.jpg" class="image-cap card-img" alt="Gà viên sốt cà chua">
 								<div class="overlay">
 									<a href="./pages/gaviensotcachua.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 								</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Gà viên sốt cà chua</h5>
-								    <p class="card-text">Gà viên sốt cà chua là món ăn có cách chế biến không cầu kì nhưng lại vô cùng hấp dẫn.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 6/6/2020</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Gà viên sốt cà chua</h5>
+									<p class="card-text describle">Gà viên sốt cà chua là món ăn có cách chế biến không cầu kì nhưng lại vô cùng hấp dẫn.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 6/6/2020</small></p>
 								</div>
 							</div>
 						</div>
 					</div>	
 				</div>
-				
+
 				<!-- row 5 -->
 				<div class="row justify-content-around">
 					<div id="food-9" class="card mb-3 shadow" style="max-width: 685px;">
@@ -275,13 +277,13 @@
 								<img src="./img/food/salattomhum/salat.jpg" class="image-cap card-img" alt="Salat tôm hùm">
 								<div class="overlay">
 									<a href="./pages/salattomhum.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 							</div>
 							<div class="col-md-8">
 								<div class="card-body">
 									<h5 class="card-title">Salat tôm hùm</h5>
-									<p class="card-text">Salad Tôm Hùm - món ngon dễ làm cho bạn, chỉ trong tích tắc.</p>
-									<p class="card-text"><small class="text-muted">Last updated 07/06/2020</small></p>
+									<p class="card-text describle">Salad Tôm Hùm - món ngon dễ làm cho bạn, chỉ trong tích tắc.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 07/06/2020</small></p>
 								</div>
 							</div>
 						</div>
@@ -292,19 +294,33 @@
 								<img src="./img/food/launhungxienque/0.jpg" class="image-cap card-img" alt="Lẩu nhúng xiên que">
 								<div class="overlay">
 									<a href="./pages/launhungxienque.html" class="image-cap-txt">Chi tiết</a>
-								  </div>
+								</div>
 							</div>
 							<div class="col-md-8">
-							    <div class="card-body">
-								    <h5 class="card-title">Lẩu nhúng xiên que</h5>
-								    <p class="card-text">Cuối tuần ở nhà chưa biết ăn gì, hãy thử ngay món Lẩu nhúng xiên que siêu hấp dẫn.</p>
-								    <p class="card-text"><small class="text-muted">Last updated 07/06/20200</small></p>
+								<div class="card-body">
+									<h5 class="card-title">Lẩu nhúng xiên que</h5>
+									<p class="card-text describle">Cuối tuần ở nhà chưa biết ăn gì, hãy thử ngay món Lẩu nhúng xiên que siêu hấp dẫn.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 07/06/20200</small></p>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>	
+			</div>
 			<!-- ============================================================ Menu Container ============================================================ -->
+			</div>
+			<div id="loader" class="text-center">
+				<div class="spinner-grow text-success" role="status">
+					<span class="sr-only">Loading...</span>		
+				</div>
+				&nbsp;
+				<div class="spinner-grow text-success" role="status">
+					<span class="sr-only">Loading...</span>		
+				</div>
+				&nbsp;
+				<div class="spinner-grow text-success" role="status">
+					<span class="sr-only">Loading...</span>		
+				</div>
 			</div>
 		</div>
 
@@ -377,12 +393,13 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script>
 			// Change color on scroll
 			$(window).scroll(function(){
 				$('header nav').toggleClass('scrolled', $(this).scrollTop() > 10);
 			});
 		</script>
-		<<script src="./main.js"></script>
+		<script src="main.js"></script>
 	</body>
 </html>
