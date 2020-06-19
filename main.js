@@ -402,8 +402,4 @@ $("li#fastfood-btn").click(function(){
 })
 
 //make search button
-function find(){
-	var content = document.getElementById("search-content").innerHTML;
-	alert(content);
-}
 
