@@ -1,3 +1,10 @@
+// Change color on scroll
+$(window).scroll(function(){
+	$('header nav').toggleClass('scrolled', $(this).scrollTop() > 10);
+});
+
+// Make spin loading
+
 var timer;
 
 function loadContainer() {
