@@ -400,3 +400,10 @@ $("li#fastfood-btn").click(function(){
 	$("#food-10 .col-md-8 .card-body .describle").text("Salad Tôm Hùm , món ngon dễ làm cho bạn, chỉ trong tích tắc. Giải cứu tôm hùm miền Trung, áp dụng ngay cách làm salad tôm hùm kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn. ")
 	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 7/6/2020")
 })
+
+//make search button
+function find(){
+	var content = document.getElementById("search-content").innerHTML;
+	alert(content);
+}
+
