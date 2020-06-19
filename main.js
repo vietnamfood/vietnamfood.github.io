@@ -49,7 +49,7 @@ $("li#main-btn").click(function(){
 	$("#food-3 div div img").attr("src", "./img/food/chaohau/chaohao.jpg")	
 	$("#food-3 div div div a").attr("href","./pages/chaohauhatsen.html")
 	$("#food-3 .col-md-8 .card-body .card-title").text("Cháo hàu hạt sen")
-	$("#food-3 .col-md-8 .card-body .describle").text("Cháo hàu hạt sen là một sự kết hợp hoàn hảo và đầy dưỡng chất, cháo hàu hạt sen không những tốt cho gia đình bạn mà đặc biệt với các bé biếng ăn nữa đấy.")
+	$("#food-3 .col-md-8 .card-body .describle").text("Cháo hàu hạt sen là một sự kết hợp hoàn hảo và đầy dưỡng chất, không những tốt cho gia đình bạn mà đặc biệt với các bé biếng ăn nữa đấy.")
 	$("#food-3 .col-md-8 .card-body .date .text-muted").text("Last updated 10/06/2020")
 
 	$("#food-4 div div img").attr("src", "./img/food/comcahoi/0.jpg")	
@@ -79,19 +79,19 @@ $("li#main-btn").click(function(){
 	$("#food-8 div div img").attr("src", "./img/food/salatbap/0.jpg")	
 	$("#food-8 div div div a").attr("href","./pages/salatbapnuhoangdo.html")
 	$("#food-8 .col-md-8 .card-body .card-title").text("Salat bắp nữ hoàng đỏ")
-	$("#food-8 .col-md-8 .card-body .describle").text("Bắp Nữ hoàng đỏ là một loại bắp hẳn còn khá mới mẻ với người tiêu dùng, đây là giống bắp ngọt đầu tiên tại Việt Nam có thể ăn sống mà không cần phải trải qua chế biến.")
+	$("#food-8 .col-md-8 .card-body .describle").text("Bắp Nữ hoàng đỏ là một loại bắp có thể ăn sống mà không cần phải trải qua chế biến.")
 	$("#food-8 .col-md-8 .card-body .date .text-muted").text("Last updated 10/06/2020")
 
 	$("#food-9 div div img").attr("src", "./img/food/salattomhum/salat.jpg")	
 	$("#food-9 div div div a").attr("href","./pages/salattomhum.html")
 	$("#food-9 .col-md-8 .card-body .card-title").text("Salat tôm hùm")
-	$("#food-9 .col-md-8 .card-body .describle").text("Salad Tôm Hùm , món ngon dễ làm cho bạn, chỉ trong tích tắc. Giải cứu tôm hùm miền Trung, áp dụng ngay cách làm salad tôm hùm kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn. ")
+	$("#food-9 .col-md-8 .card-body .describle").text("Món ngon dễ làm cho bạn, chỉ trong tích tắc, Kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn.")
 	$("#food-9 .col-md-8 .card-body .date .text-muted").text("Last updated 07/06/2020")
 
 	$("#food-10 div div img").attr("src", "./img/food/Smoothiethanhlongdonhietdoi/0.jpg")	
 	$("#food-10 div div div a").attr("href","./pages/smoothiethanhlongdonhietdoi.html")
 	$("#food-10 .col-md-8 .card-body .card-title").text("Smoothie thanh long đỏ nhiệt đới")
-	$("#food-10 .col-md-8 .card-body .describle").text("Bạn sẽ có thể tự làm cho mình một tô smoothie thật ngon miệng và bắt mắt, hương vị chua ngọt nhiệt đới rất dễ thưởng thức. Đừng bỏ lỡ công thức này cho bộ sưu tập món ăn giảm cân của bạn nhé!")
+	$("#food-10 .col-md-8 .card-body .describle").text("Bạn có thể tự làm cho mình một tô smoothie thật ngon miệng và bắt mắt, hương vị chua ngọt nhiệt đới rất dễ thưởng thức.")
 	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 08/06/2020")
 	
 })
@@ -113,7 +113,7 @@ $("li#lunch-btn").click(function(){
 	$("#food-1 div div img").attr("src", "./img/food/canhmongtoi/0.jpg")	
 	$("#food-1 div div div a").attr("href","./pages/canhcuadongmongtoi.html")
 	$("#food-1 .col-md-8 .card-body .card-title").text("Canh cua đồng mồng tơi")
-	$("#food-1 .col-md-8 .card-body .describle").text("Món canh cua đồng đơn giản, dễ nấu nhưng đậm đà hương vị, hãy thêm món này vào thực đơn bữa ăn hằng ngày của các bạn để tạo thêm hương vị phong Phú cho bữa ăn gia đình bạn nhé.")
+	$("#food-1 .col-md-8 .card-body .describle").text("Món canh cua đồng đơn giản, dễ nấu nhưng đậm đà hương vị, phong phú cho bữa ăn gia đình.")
 	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 11/06/2020")
 
 	$("#food-2 div div img").attr("src", "./img/food/tomhapbi/0.jpg")	
@@ -157,7 +157,7 @@ $("li#lunch-btn").click(function(){
 	$("#food-8 div div img").attr("src", "./img/food/khoquetchamraucu/khoquet.jpg")	
 	$("#food-8 div div div a").attr("href","./pages/khoquetchamraucu.html")
 	$("#food-8 .col-md-8 .card-body .card-title").text("Kho quẹt chấm rau củ")
-	$("#food-8 .col-md-8 .card-body .describle").text("Kho quẹt chấm rau củ là món ngon dân dã của người miền Tây. Cách làm kho quẹt với vị âm ấm, thơm nồng mùi nước mắm, kết hợp từ nguyên liệu thịt heo beo béo, dai dai, tôm khô mềm mềm rất đặc trưng.")
+	$("#food-8 .col-md-8 .card-body .describle").text("Kho quẹt chấm rau củ là món ngon dân dã của người miền Tây, thơm nồng mùi nước mắm rất đặc trưng.")
 	$("#food-8 .col-md-8 .card-body .date .text-muted").text("Last updated 12/06/2020")
 
 	$("#food-9 div div img").attr("src", "./img/food/thitheothom/0.jpg")	
@@ -169,7 +169,7 @@ $("li#lunch-btn").click(function(){
 	$("#food-10 div div img").attr("src", "./img/food/mucsate/0.jpg")	
 	$("#food-10 div div div a").attr("href","./pages/mucxaosate.html")
 	$("#food-10 .col-md-8 .card-body .card-title").text("Mực xào sa tế")
-	$("#food-10 .col-md-8 .card-body .describle").text("Món ngon cho bữa cơm gia đình hay dịp tụ họp bạn bè. Vị giòn tươi của mực, thanh mát của các loại rau củ kết hợp với vị cay nồng của sa tế, tất cả hoà quyện lại với nhau tạo nên món ăn siêu kích thích vị giác. Hãy chuẩn bị nguyên liệu và bắt tay vào làm ngay thôi.")
+	$("#food-10 .col-md-8 .card-body .describle").text("Món ngon cho bữa cơm gia đình hay dịp tụ họp bạn bè. Hãy chuẩn bị nguyên liệu và bắt tay vào làm ngay thôi.")
 	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 10/06/2020")
 
 
@@ -192,7 +192,7 @@ $("li#dinner-btn").click(function(){
 	$("#food-1 div div img").attr("src", "./img/food/canhghe/0.jpg")	
 	$("#food-1 div div div a").attr("href","./pages/canhghekimchi.html")
 	$("#food-1 .col-md-8 .card-body .card-title").text("Canh ghẹ kim chi")
-	$("#food-1 .col-md-8 .card-body .describle").text("Canh ghẹ kim chi món ăn có biến tấu độc đáo từ ghẹ và kim chi. Vị ngọt tự nhiên của ghẹ kết hợp vị chua cay thêm chút giòn giòn của kim chi.")
+	$("#food-1 .col-md-8 .card-body .describle").text("Vị ngọt tự nhiên của ghẹ kết hợp vị chua cay thêm chút giòn giòn của kim chi sẽ tạo nên món ăn ngon tuyệt.")
 	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 10/06/2020")
 	
 	$("#food-2 div div img").attr("src", "./img/food/ochuong/1-1.jpg")	
@@ -204,19 +204,19 @@ $("li#dinner-btn").click(function(){
 	$("#food-3 div div img").attr("src", "./img/food/bachtuocphomai/bachtuoc.jpeg")	
 	$("#food-3 div div div a").attr("href","./pages/bachtuocsotbophomaicay.html")
 	$("#food-3 .col-md-8 .card-body .card-title").text("Bạch tuộc sốt bơ phô mai cay")
-	$("#food-3 .col-md-8 .card-body .describle").text("Bạch tuộc sốt bơ phô mai cay là món ăn ngon và rất được giới trẻ ưa thích, cũng là một món lai rai lý tưởng cho những ngày mưa lạnh.")
+	$("#food-3 .col-md-8 .card-body .describle").text("Bạch tuộc sốt bơ phô mai cay rất được giới trẻ ưa thích, một món lý tưởng cho những ngày mưa lạnh.")
 	$("#food-3 .col-md-8 .card-body .date .text-muted").text("Last updated 08/06/2020")
 
 	$("#food-4 div div img").attr("src", "./img/food/mucnuong/0.jpg")	
 	$("#food-4 div div div a").attr("href","./pages/mucnuongdahapbia.html")
 	$("#food-4 .col-md-8 .card-body .card-title").text("Mực nướng đá hấp bia")
-	$("#food-4 .col-md-8 .card-body .describle").text("Mực nướng đá hấp bia được hấp chín trên đá cuội giúp giữ được lượng nước và không làm mất đi nhiều chất dinh dưỡng trong từng miếng mực, và còn hấp thu thêm khoáng chất từ bia và đá cuội làm cho món ăn trở nên ngon, đặc sắc hơn.")
+	$("#food-4 .col-md-8 .card-body .describle").text("Mực nướng được hấp chín trên đá cuội giúp giữ được lượng nước và không làm mất đi nhiều chất dinh dưỡng đấy.")
 	$("#food-4 .col-md-8 .card-body .date .text-muted").text("Last updated 10/06/2020")
 
 	$("#food-5 div div img").attr("src", "./img/food/bachicuon/0.jpg")	
 	$("#food-5 div div div a").attr("href","./pages/thitbachicuonnamkimcham.html")
 	$("#food-5 .col-md-8 .card-body .card-title").text("Thịt ba chỉ cuộn nấm kim châm")
-	$("#food-5 .col-md-8 .card-body .describle").text("Thịt ba chỉ hay còn được gọi là thịt ba rọi, vị đậm đà của những miếng ba chỉ hun khói thấm đượm vào những cây nấm kim châm tạo cho món ăn trở nên hấp dẫn hơn.")
+	$("#food-5 .col-md-8 .card-body .describle").text("Vị đậm đà của những miếng ba chỉ hun khói thấm đượm vào những cây nấm kim châm tạo cho món ăn trở nên hấp dẫn hơn.")
 	$("#food-5 .col-md-8 .card-body .date .text-muted").text("Last updated 11/06/2020")
 
 	$("#food-6 div div img").attr("src", "./img/food/tomxoctoiot/tomxoctoiot.jpg")	
@@ -228,7 +228,7 @@ $("li#dinner-btn").click(function(){
 	$("#food-7 div div img").attr("src", "./img/food/calocnuong/0.jpg")	
 	$("#food-7 div div div a").attr("href","./pages/calocnuongriengme.html")
 	$("#food-7 .col-md-8 .card-body .card-title").text("Cá lóc nướng riềng mè")
-	$("#food-7 .col-md-8 .card-body .describle").text("Cá lóc hay còn gọi là cá quả nướng riềng mẻ là một món ăn ngon, được nhiều người yêu thích và lựa chọn cho bữa tiệc gia đình nhà mình hoặc khi ra nhà hàng.")
+	$("#food-7 .col-md-8 .card-body .describle").text("Cá quả nướng riềng mẻ được nhiều người yêu thích và lựa chọn cho bữa tiệc gia đình hoặc khi ra nhà hàng.")
 	$("#food-7 .col-md-8 .card-body .date .text-muted").text("Last updated 12/06/2020")
 
 	$("#food-8 div div img").attr("src", "./img/food/tomvienusenchiengion/tomviencusenchiengion.jpg")	
@@ -247,7 +247,7 @@ $("li#dinner-btn").click(function(){
 	$("#food-10 div div div a").attr("href","./pages/launhungxienque.html")
 	$("#food-10 .col-md-8 .card-body .card-title").text("Lẩu nhúng xiên que")
 	$("#food-10 .col-md-8 .card-body .describle").text("Cuối tuần ở nhà chưa biết ăn gì, hãy thử ngay món Lẩu nhúng xiên que siêu hấp dẫn dưới đây.")
-	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 06/03/2020")
+	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 06/06/2020")
 
 
 
@@ -343,7 +343,7 @@ $("li#fastfood-btn").click(function(){
 	$("#food-1 div div img").attr("src", "./img/food/banhkem/0.jpg")	
 	$("#food-1 div div div a").attr("href","./pages/banhkemredvelvet.html")
 	$("#food-1 .col-md-8 .card-body .card-title").text("Bánh kem Red Velvet")
-	$("#food-1 .col-md-8 .card-body .describle").text("Bánh Red Velvet là sự kết hợp hài hòa của từng lớp bánh đỏ thắm đan xen với những lớp kem trắng mịn, bồng bềnh trông thật thích mắt và ngon miệng.")
+	$("#food-1 .col-md-8 .card-body .describle").text("Bánh Red Velvet là sự kết hợp hài hòa của từng lớp bánh đỏ thắm đan xen với những lớp kem trắng mịn.")
 	$("#food-1 .col-md-8 .card-body .date .text-muted").text("Last updated 12/06/2020")
 	
 	$("#food-2 div div img").attr("src", "./img/food/banhlantranchau/0.jpg")	
@@ -355,7 +355,7 @@ $("li#fastfood-btn").click(function(){
 	$("#food-3 div div img").attr("src", "./img/food/banhmikhoailangtim/banhmi.jpeg")	
 	$("#food-3 div div div a").attr("href","./pages/banhmikhoailangtim.html")
 	$("#food-3 .col-md-8 .card-body .card-title").text("Bánh mì khoai lang tím")
-	$("#food-3 .col-md-8 .card-body .describle").text("Vào những dịp cuối tuần sum họp của gia đình, bạn có muốn làm một món bánh thơm ngon để thưởng thức cùng với những người thân thương trong gia đình. Xin giới thiệu cho bạn món Bánh mì khoai lang tím vừa dễ làm lại thơm mềm, vừa đẹp mắt sẽ làm hấp dẫn cả nhà đây.")
+	$("#food-3 .col-md-8 .card-body .describle").text("Giới thiệu cho bạn món bánh mì khoai lang tím vừa dễ làm lại thơm mềm, vừa đẹp mắt cho cả nhà đây.")
 	$("#food-3 .col-md-8 .card-body .date .text-muted").text("Last updated 12/06/2020")
 
 	$("#food-4 div div img").attr("src", "./img/food/lechung/0.jpg")	
@@ -367,7 +367,7 @@ $("li#fastfood-btn").click(function(){
 	$("#food-5 div div img").attr("src", "./img/food/goidudusohuyet/0.jpg")	
 	$("#food-5 div div div a").attr("href","./pages/goidudusohuyet.html")
 	$("#food-5 .col-md-8 .card-body .card-title").text("Gỏi đu đủ sò huyết")
-	$("#food-5 .col-md-8 .card-body .describle").text("Giới thiệu 1 món mới đó là gỏi đu đủ sò huyết, với vị giòn giòn của đu đủ, chua cay mặn ngọt của nước sốt và vị ngon đặt trưng của sò huyết sẽ khiến bạn muốn ăn mãi không thôi")
+	$("#food-5 .col-md-8 .card-body .describle").text("Vị giòn giòn của đu đủ, chua cay mặn ngọt của nước sốt và vị ngon đặc trưng của sò huyết sẽ khiến bạn muốn ăn mãi không thôi.")
 	$("#food-5 .col-md-8 .card-body .date .text-muted").text("Last updated 03/06/2020")
 
 	$("#food-6 div div img").attr("src", "./img/food/goimangcut/mangcut.jpg")	
@@ -379,25 +379,25 @@ $("li#fastfood-btn").click(function(){
 	$("#food-7 div div img").attr("src", "./img/food/xucxichphomai/cooky-recipe-cover-r39840.jpg")	
 	$("#food-7 div div div a").attr("href","./pages/xucxichphomai.html")
 	$("#food-7 .col-md-8 .card-body .card-title").text("Xúc xích phô mai")
-	$("#food-7 .col-md-8 .card-body .describle").text("Xúc xích phô mai là món ăn vặt chiên giòn tan được áo một lớp bột và khoai tây bên ngoài, ăn kèm tương cà và sốt mayonnaise ngon lành. Các bạn lưu lại cách làm ngay nhé! ")
+	$("#food-7 .col-md-8 .card-body .describle").text("Xúc xích phô mai là món ăn vặt giòn tan được áo một lớp bột và khoai tây bên ngoài, ăn kèm tương cà và sốt mayonnaise ngon lành.")
 	$("#food-7 .col-md-8 .card-body .date .text-muted").text("Last updated 10/06/2020")
 
 	$("#food-8 div div img").attr("src", "./img/food/phomaique/0.jpg")	
 	$("#food-8 div div div a").attr("href","./pages/phomaiquebockhoailang.html")
 	$("#food-8 .col-md-8 .card-body .card-title").text("Phô mai que bọc khoai lang")
-	$("#food-8 .col-md-8 .card-body .describle").text("Với lớp vỏ bọc khoai chiên giòn, bên trong là nhân phô mai kéo sợi dễ thực hiện lại rất thích hợp cho ngày cuối tuần cùng gia đình. Hãy cùng vào bếp thực hiện nhé!")
+	$("#food-8 .col-md-8 .card-body .describle").text("Với lớp vỏ bọc khoai chiên giòn, bên trong là nhân phô mai kéo sợi dễ thực hiện lại rất thích hợp cho ngày cuối tuần cùng gia đình.")
 	$("#food-8 .col-md-8 .card-body .date .text-muted").text("Last updated 05/06/2020")
 
 	$("#food-9 div div img").attr("src", "./img/food/salatbap/0.jpg")	
 	$("#food-9 div div div a").attr("href","./pages/salatbapnuhoangdo.html")
 	$("#food-9 .col-md-8 .card-body .card-title").text("Salat bắp nữ hoàng đỏ")
-	$("#food-9 .col-md-8 .card-body .describle").text("Bắp Nữ hoàng đỏ là một loại bắp hẳn còn khá mới mẻ với người tiêu dùng, đây là giống bắp ngọt đầu tiên tại Việt Nam có thể ăn sống mà không cần phải trải qua chế biến.")
+	$("#food-9 .col-md-8 .card-body .describle").text("Bắp Nữ hoàng đỏ là một loại bắp có thể ăn sống mà không cần phải trải qua chế biến.")
 	$("#food-9 .col-md-8 .card-body .date .text-muted").text("Last updated 10/6/2020")
 
 	$("#food-10 div div img").attr("src", "./img/food/salattomhum/salat.jpg")	
 	$("#food-10 div div div a").attr("href","./pages/salattomhum.html")
 	$("#food-10 .col-md-8 .card-body .card-title").text("Salat tôm hùm")
-	$("#food-10 .col-md-8 .card-body .describle").text("Salad Tôm Hùm , món ngon dễ làm cho bạn, chỉ trong tích tắc. Giải cứu tôm hùm miền Trung, áp dụng ngay cách làm salad tôm hùm kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn. ")
+	$("#food-10 .col-md-8 .card-body .describle").text("Món ngon dễ làm cho bạn, chỉ trong tích tắc. Kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn. ")
 	$("#food-10 .col-md-8 .card-body .date .text-muted").text("Last updated 7/6/2020")
 })
 
