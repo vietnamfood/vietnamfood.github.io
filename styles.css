@@ -209,9 +209,12 @@ from{ bottom:-100px; opacity:0 }
 to{ bottom:0; opacity:1 }
 }
 
-#menu-container {
-display: none;
-text-align: left;
+.food {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 /* =============== menu container =========================*/
 

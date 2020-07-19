@@ -44,9 +44,9 @@
 						</li>
 						<hr class="clearfix w-100 d-md-none" style="border-top: 1px solid whitesmoke;">
 					</ul>
-					<form class="form-inline my-2 my-lg-0 justify-content-center" action="./pages/action_page.html">
-						<input class="form-control mr-sm-2" type="text" name="search" id="search" placeholder="Nhap mon can tim" aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					<form class="form-inline my-2 my-lg-0 justify-content-center" action="./index.html">
+						<input class="form-control mr-sm-2" type="text" name="search" id="search-text" placeholder="Nhập món cần tìm" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" id="search-btn" type="button" >Search</button>
 					</form>
 				</div>
 			</nav>
@@ -122,9 +122,9 @@
 			<!-- ============================================================ Menu Container ============================================================ -->
 			
 			<div id="menu-container" class="animate-bottom">
-				<!-- row 1 -->
+				<!-- main -->
 				<div class="row justify-content-around">
-					<div id="food-1" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img id="food-1-img" src="./img/food/banhmichao/0.jpg" class="image-cap card-img" alt="Bánh mì chảo">
@@ -141,7 +141,7 @@
 							</div>
 						</div>
 					</div>	
-					<div id="food-2" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/hutieumytho/0.jpg" class="image-cap card-img" alt="Hủ tiếu cua Mỹ Tho">
@@ -162,7 +162,7 @@
 
 				<!-- row 2 -->
 				<div class="row justify-content-around">
-					<div id="food-3" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/nuino/0.jpg" class="image-cap card-img" alt="Nui nơ nấu thịt bằm">
@@ -179,7 +179,7 @@
 							</div>
 						</div>
 					</div>	
-					<div id="food-4" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/canhgachiennuocmam/0.jpg" class="image-cap card-img" alt="Cánh gà chiên nước mắm">
@@ -200,7 +200,7 @@
 
 				<!-- row 3 -->
 				<div class="row justify-content-around">
-					<div id="food-5" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/goidudusohuyet/0.jpg" class="image-cap card-img" alt="Gỏi đu đủ sò huyết">
@@ -217,7 +217,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="food-6" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/mitepmo/0.jpg" class="image-cap card-img" alt="Mì trộn tóp mỡ">
@@ -238,7 +238,7 @@
 
 				<!-- row 4 -->
 				<div class="row justify-content-around">
-					<div id="food-7" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/thitkhotrungcut/7.jpg" class="image-cap card-img" alt="Thịt kho trứng cút">
@@ -255,7 +255,7 @@
 							</div>
 						</div>
 					</div>	
-					<div id="food-8" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/gaviensotcachua/0.jpg" class="image-cap card-img" alt="Gà viên sốt cà chua">
@@ -273,10 +273,8 @@
 						</div>
 					</div>	
 				</div>
-
-				<!-- row 5 -->
 				<div class="row justify-content-around">
-					<div id="food-9" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/salattomhum/salat.jpg" class="image-cap card-img" alt="Salat tôm hùm">
@@ -293,7 +291,7 @@
 							</div>
 						</div>
 					</div>	
-					<div id="food-10" class="card mb-3 shadow" style="max-width: 685px;">
+					<div class="card mb-3 shadow food mainf" style="max-width: 685px;">
 						<div class="row no-gutters">
 							<div class="col-md-4 caption">
 								<img src="./img/food/launhungxienque/0.jpg" class="image-cap card-img" alt="Lẩu nhúng xiên que">
@@ -310,7 +308,772 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<!-- ====================================main============================================== -->
+
+				<!-- lunch -->
+				<!-- row 1 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img id="food-1-img" src="./img/food/canhmongtoi/0.jpg" class="image-cap card-img" alt="Bánh mì chảo">
+								<div class="overlay">
+									<a href="./pages/canhcuadongmongtoi.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Canh cua đồng mồng tơi</h5>
+									<p class="card-text describle">Món canh cua đồng đơn giản, dễ nấu nhưng đậm đà hương vị, phong phú cho bữa ăn gia đình.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 11/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/tomhapbi/0.jpg" class="image-cap card-img" alt="Hủ tiếu cua Mỹ Tho">
+								<div class="overlay">
+									<a href="./pages/tomhapbingoi.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Tôm hấp bí ngòi</h5>
+									<p class="card-text describle">Tôm hấp bí ngòi là món ăn đơn giản, thanh đạm nhưng không kém phần bổ dưỡng và hấp dẫn.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 11/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 2 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/canhchuacaithao.jpg" class="image-cap card-img" alt="Nui nơ nấu thịt bằm">
+								<div class="overlay">
+									<a href="./pages/canhchuacaithao.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Canh chua cải thảo</h5>
+									<p class="card-text describle">Vào những ngày nắng nóng hay trời mưa, thì có 1 tô canh chua cũng rất là hợp lý. Món này không tốn nhiều chi phí.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 06/03/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/mamtepmientay/mamtep.jpg" class="image-cap card-img" alt="Cánh gà chiên nước mắm">
+								<div class="overlay">
+									<a href="./pages/mamtepmientay.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Mắm tép miền tây</h5>
+									<p class="card-text describle">Mắm Tép Miền Tây - món ăn ngon dân dã của miền đồng bằng sông nước.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 12/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 3 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/canhgachiennuocmam/0.jpg" class="image-cap card-img" alt="Gỏi đu đủ sò huyết">
+								<div class="overlay">
+									<a href="./pages/canhgachiennuocmam.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Cánh gà chiên nước mắm</h5>
+									<p class="card-text describle">Cà chiên nước mắm là món ăn ngon cho bữa cơm gia đình.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 06/03/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/chagiotom/0.jpg" class="image-cap card-img" alt="Mì trộn tóp mỡ">
+								<div class="overlay">
+									<a href="./pages/chagiotom.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Chả giò tôm</h5>
+									<p class="card-text describle">Món chả giò tomyum giòn thơm ở phần vỏ kết hợp với vị ngọt bùi của tôm mực sẽ tạo hương vị thơm ngon ngây ngất khi bạn thưởng thức.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 4 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/thitkhotrungcut/7.jpg" class="image-cap card-img" alt="Thịt kho trứng cút">
+								<div class="overlay">
+									<a href="./pages/thitkhotrungcut.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Thịt kho trứng cút</h5>
+									<p class="card-text describle">Thịt kho trứng cút đậm đà với thịt heo ba chỉ béo dai, trứng cút bùi béo ngấm đều gia vị.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/khoquetchamraucu/khoquet.jpg" class="image-cap card-img" alt="Gà viên sốt cà chua">
+								<div class="overlay">
+									<a href="./pages/khoquetchamraucu.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Kho quẹt chấm rau củ</h5>
+									<p class="card-text describle">Kho quẹt chấm rau củ là món ngon dân dã của người miền Tây, thơm nồng mùi nước mắm rất đặc trưng.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 12/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 5 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/thitheothom/0.jpg" class="image-cap card-img" alt="Salat tôm hùm">
+								<div class="overlay">
+									<a href="./pages/thitheokhothom.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Thịt heo kho thơm</h5>
+									<p class="card-text describle">Một món ăn dân dã quen thuộc trong bữa ăn gia đình, mang vị mặn, chua, ngọt hài hòa rất thú vị và đặc biệt.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 11/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food lunchf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/mucsate/0.jpg" class="image-cap card-img" alt="Lẩu nhúng xiên que">
+								<div class="overlay">
+									<a href="./pages/mucxaosate.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Mực xào sa tế</h5>
+									<p class="card-text describle">Món ngon cho bữa cơm gia đình hay dịp tụ họp bạn bè. Hãy chuẩn bị nguyên liệu và bắt tay vào làm ngay thôi.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>	
+				<!-- ==================================== lunch ============================================== -->
+
+				<!-- dinner -->
+				<!-- row 1 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img id="food-1-img" src="./img/food/canhghe/0.jpg" class="image-cap card-img" alt="Canh ghẹ kim chi">
+								<div class="overlay">
+									<a href="./pages/canhghekimchi.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Canh ghẹ kim chi</h5>
+									<p class="card-text describle">Vị ngọt tự nhiên của ghẹ kết hợp vị chua cay thêm chút giòn giòn của kim chi sẽ tạo nên món ăn ngon tuyệt.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/ochuong/1-1.jpg" class="image-cap card-img" alt="Ốc hương hấp bắp sả tắc">
+								<div class="overlay">
+									<a href="./pages/ochuonghapbapsatac.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Ốc hương hấp bắp sả tắc</h5>
+									<p class="card-text describle">Ốc hương chế biến món nào cũng ngon hết, ốc hương hấp bắp sả tắc ăn một lần là nghiện luôn đấy!</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 2 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/bachtuocphomai/bachtuoc.jpeg" class="image-cap card-img" alt="Bạch tuộc sốt bơ phô mai cay">
+								<div class="overlay">
+									<a href="./pages/bachtuocsotbophomaicay.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Bạch tuộc sốt bơ phô mai cay</h5>
+									<p class="card-text describle">Bạch tuộc sốt bơ phô mai cay rất được giới trẻ ưa thích, một món lý tưởng cho những ngày mưa lạnh.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 08/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/mucnuong/0.jpg" class="image-cap card-img" alt="Mực nướng đá hấp bia">
+								<div class="overlay">
+									<a href="./pages/mucnuongdahapbia.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Mực nướng đá hấp bia</h5>
+									<p class="card-text describle">Mực nướng được hấp chín trên đá cuội giúp giữ được lượng nước và không làm mất đi nhiều chất dinh dưỡng đấy.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 3 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/bachicuon/0.jpg" class="image-cap card-img" alt="Thịt ba chỉ cuộn nấm kim châm">
+								<div class="overlay">
+									<a href="./pages/thitbachicuonnamkimcham.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Thịt ba chỉ cuộn nấm kim châm</h5>
+									<p class="card-text describle">Vị đậm đà của những miếng ba chỉ hun khói thấm đượm vào những cây nấm kim châm tạo cho món ăn trở nên hấp dẫn hơn.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 11/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/tomxoctoiot/tomxoctoiot.jpg" class="image-cap card-img" alt="Tôm xốc tỏi ớt">
+								<div class="overlay">
+									<a href="./pages/tomxoctoiot.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Tôm xốc tỏi ớt</h5>
+									<p class="card-text describle">Nếu đang cần mồi bén để nhắm cùng bia thì chắc chắn món Tôm xóc tỏi của mình là số một rồi.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 06/03/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 4 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/calocnuong/0.jpg" class="image-cap card-img" alt="Cá lóc nướng riềng mè">
+								<div class="overlay">
+									<a href="./pages/calocnuongriengme.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Cá lóc nướng riềng mè</h5>
+									<p class="card-text describle">Cá quả nướng riềng mẻ được nhiều người yêu thích và lựa chọn cho bữa tiệc gia đình hoặc khi ra nhà hàng.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 12/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/tomvienusenchiengion/tomviencusenchiengion.jpg" class="image-cap card-img" alt="Tôm viên củ sen chiên giòn">
+								<div class="overlay">
+									<a href="./pages/tomviencusenchiengion.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Tôm viên củ sen chiên giòn</h5>
+									<p class="card-text describle">Một chút biến tấu với củ sen thanh ngọt và thịt tôm được bọc bởi một lớp bột giòn xù sẽ đem lại cảm giác thích thú ngay từ cái nhìn đầu tiên.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 05/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<!-- row 5 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/launam/0.jpg" class="image-cap card-img" alt="Lẩu nấm thiên nhiên">
+								<div class="overlay">
+									<a href="./pages/launamthiennhien.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Lẩu nấm thiên nhiên</h5>
+									<p class="card-text describle">Trong các dịp sum họp gia đình hay những bữa ăn cuối tuần, thì món lẩu luôn là sự lựa chọn hàng đầu của các bà nội trợ.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 11/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food dinnerf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/launhungxienque/0.jpg" class="image-cap card-img" alt="Lẩu nhúng xiên que">
+								<div class="overlay">
+									<a href="./pages/launhungxienque.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Lẩu nhúng xiên que</h5>
+									<p class="card-text describle">Cuối tuần ở nhà chưa biết ăn gì, hãy thử ngay món Lẩu nhúng xiên que siêu hấp dẫn dưới đây.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 06/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<!-- ==================================== dinner ============================================== -->
+
+				<!-- drink -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img id="food-1-img" src="./img/food/caphetrung/0.jpg" class="image-cap card-img" alt="Cà phê trứng">
+								<div class="overlay">
+									<a href="./pages/caphetrung.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Cà phê trứng</h5>
+									<p class="card-text describle">Cafe trứng là món thức uống đặc trưng của Hà Nội.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/cocktailcherryamaretto/0.jpg" class="image-cap card-img" alt="Cocktail Cherry Amaretto">
+								<div class="overlay">
+									<a href="./pages/cocktailcherryamaretto.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Cocktail Cherry Amaretto</h5>
+									<p class="card-text describle">Cocktail với vị cherry chua chua, ngọt ngọt hòa cùng rượu Amaretto thơm lừng cực ngon và hấp dẫn rất dễ làm nên bạn hãy thử làm ngay nhé.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 08/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 2 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/duadam/0.jpg" class="image-cap card-img" alt="Dừa dầm">
+								<div class="overlay">
+									<a href="./pages/duadam.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Dừa dầm</h5>
+									<p class="card-text describle">Dừa dầm Hải Phòng - món ăn vặt giải nhiệt cực hấp dẫn cho những tín đồ hảo ngọt.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/milodalgona/0.jpeg" class="image-cap card-img" alt="Milo dalgona">
+								<div class="overlay">
+									<a href="./pages/milodalgona.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Milo dalgona</h5>
+									<p class="card-text describle"> Dành cho những tín đồ không không thích vị đắng của cà phê.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 08/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 3 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/nuocchanhsahatchia/0.jpg" class="image-cap card-img" alt="Nước chanh sả hạt chia">
+								<div class="overlay">
+									<a href="./pages/nuocchanhsahatchia.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Nước chanh sả hạt chia</h5>
+									<p class="card-text describle">Nước Chanh Hạt Chia Hương Sả là thức uống detox ngon lành lại đơn giản tại nhà.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/suachuauong/0.jpg" class="image-cap card-img" alt="Sữa chua uống">
+								<div class="overlay">
+									<a href="./pages/suachuauong.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Sữa chua uống</h5>
+									<p class="card-text describle">Ngon tuyệt cú mèo.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 4 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/suadauphong/0.jpg" class="image-cap card-img" alt="Sữa đậu phộng">
+								<div class="overlay">
+									<a href="./pages/suadauphong.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Sữa đậu phộng</h5>
+									<p class="card-text describle">Đậu phộng không chỉ được được chế biến thành nhiều món ăn hấp dẫn mà còn là thức uống rất tốt cho sức khỏe.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/suagaoluc/0.jpg" class="image-cap card-img" alt="Sữa gạo lức">
+								<div class="overlay">
+									<a href="./pages/suagaoluc.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Sữa gạo lức</h5>
+									<p class="card-text describle">Sữa Gạo Lức là thức uống từ hạt vô cùng thơm ngon.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<!-- row 5-->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/suatuoitranchauduongnau/0.jpg" class="image-cap card-img" alt="Sữa tươi trân châu đường nâu">
+								<div class="overlay">
+									<a href="./pages/suatuopitranchauduongnau.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Sữa tươi trân châu đường nâu</h5>
+									<p class="card-text describle">Vị béo ngậy của sữa tươi thanh trùng cùng trân châu dai dai, ngọt ngọt - loại topping gây sốt.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food drinkf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/tratranchauhoadaubiec/0.jpg" class="image-cap card-img" alt="Trân châu hoa đậu biếc">
+								<div class="overlay">
+									<a href="./pages/tranchauhoadaubiec.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Trân châu hoa đậu biếc</h5>
+									<p class="card-text describle">Trà hoa Đậu Biếc hay còn được gọi với cái tên thân thương trà Lam Hồ Điệp với màu tim tím đặc trưng.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ==================================== drink ============================================== -->
+
+				<!-- fastfood -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img id="food-1-img" src="./img/food/banhkem/0.jpg" class="image-cap card-img" alt="Bánh kem Red Velvet">
+								<div class="overlay">
+									<a href="./pages/banhkemredvelvet.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Bánh kem Red Velvet</h5>
+									<p class="card-text describle">Bánh Red Velvet là sự kết hợp hài hòa của từng lớp bánh đỏ thắm đan xen với những lớp kem trắng mịn.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 12/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/banhlantranchau/0.jpg" class="image-cap card-img" alt="Bánh plan trà sữa">
+								<div class="overlay">
+									<a href="./pages/banhlantrasua.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Bánh plan trà sữa</h5>
+									<p class="card-text describle">Bạn thích bánh flan, bạn cũng thích nhâm nhi trà sữa với trân châu đường nâu ngọt lịm.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 12/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 2 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/banhmikhoailangtim/banhmi.jpeg" class="image-cap card-img" alt="Bánh mì khoai lang tím">
+								<div class="overlay">
+									<a href="./pages/banhmikhoailangtim.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Bánh mì khoai lang tím</h5>
+									<p class="card-text describle">Giới thiệu cho bạn món bánh mì khoai lang tím vừa dễ làm lại thơm mềm, vừa đẹp mắt cho cả nhà đây.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 12/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/lechung/0.jpg" class="image-cap card-img" alt="Lê chưng thanh mát">
+								<div class="overlay">
+									<a href="./pages/lechungthanhmat.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Lê chưng thanh mát</h5>
+									<p class="card-text describle">Lê Chưng Thanh Mát - được dân gian ví như bài thuốc trị ho khan hiệu quả.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 3 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/goidudusohuyet/0.jpg" class="image-cap card-img" alt="Gỏi đu đủ sò huyết">
+								<div class="overlay">
+									<a href="./pages/goidudusohuyet.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Gỏi đu đủ sò huyết</h5>
+									<p class="card-text describle">Vị giòn giòn của đu đủ, chua cay mặn ngọt của nước sốt và vị ngon đặc trưng của sò huyết sẽ khiến bạn muốn ăn mãi không thôi.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 03/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/goimangcut/mangcut.jpg" class="image-cap card-img" alt="Gỏi măng cụt">
+								<div class="overlay">
+									<a href="./pages/goimangcut.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Gỏi măng cụt</h5>
+									<p class="card-text describle">Gỏi măng cụt là đặc sản của vùng miệt vườn Lái Thiêu. Hãy vào bếp cùng mình nào vì đã có sẵn công thức ngon đúng, chuẩn vị rồi đây.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+
+				<!-- row 4 -->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/xucxichphomai/cooky-recipe-cover-r39840.jpg" class="image-cap card-img" alt="Xúc xích phô mai">
+								<div class="overlay">
+									<a href="./pages/xucxichphomai.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Xúc xích phô mai</h5>
+									<p class="card-text describle">Xúc xích phô mai là món ăn vặt giòn tan được áo một lớp bột và khoai tây bên ngoài, ăn kèm tương cà và sốt mayonnaise ngon lành.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/phomaique/0.jpg" class="image-cap card-img" alt="Phô mai que bọc khoai lang">
+								<div class="overlay">
+									<a href="./pages/phomaiquebockhoailang.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+								</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Phô mai que bọc khoai lang</h5>
+									<p class="card-text describle">Với lớp vỏ bọc khoai chiên giòn, bên trong là nhân phô mai kéo sợi dễ thực hiện lại rất thích hợp cho ngày cuối tuần cùng gia đình.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 05/06/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<!-- row 5-->
+				<div class="row justify-content-around">
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/salatbap/0.jpg" class="image-cap card-img" alt="Salat bắp nữ hoàng đỏ">
+								<div class="overlay">
+									<a href="./pages/salatbapnuhoangdo.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Salat bắp nữ hoàng đỏ</h5>
+									<p class="card-text describle">Bắp Nữ hoàng đỏ là một loại bắp có thể ăn sống mà không cần phải trải qua chế biến.</p>
+									<p class="card-text date"><small class="text-muted">Last updated 10/6/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="card mb-3 shadow food fastf" style="max-width: 685px;">
+						<div class="row no-gutters">
+							<div class="col-md-4 caption">
+								<img src="./img/food/salattomhum/salat.jpg" class="image-cap card-img" alt="Salat tôm hùm">
+								<div class="overlay">
+									<a href="./pages/salattomhum.html" class="image-cap-txt">Chi tiết</a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<h5 class="card-title">Salat tôm hùm</h5>
+									<p class="card-text describle">Món ngon dễ làm cho bạn, chỉ trong tích tắc. Kết hợp với bắp Mỹ, bơ trái và sốt trộn mayonnaise, chua chua và béo béo cực hấp dẫn. </p>
+									<p class="card-text date"><small class="text-muted">Last updated 7/6/2020</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ==================================== fastfood ============================================== -->
+
 			</div>
 			<!-- ============================================================ Menu Container ============================================================ -->
 			</div>
