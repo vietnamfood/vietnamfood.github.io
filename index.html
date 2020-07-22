@@ -25,18 +25,12 @@
 							<a class="nav-link header-nav-link" href="#gioithieu">Giới thiệu</a>
 						</li>
 						
-						<li class="dropdown" >
-							<a class="nav-link dropdown-toggle header-nav-link" href="#congthuc" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Công thức
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#"></a>
-							<a class="dropdown-item" href="#">Thức ăn nhanh</a>
-							</div>
+						<li class="nav-item">
+							<a class="nav-link header-nav-link" href="#congthuc">Công thức</a>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link header-nav-link" href="#">Kho ảnh</a>
+							<a class="nav-link header-nav-link" href="#reservation">Đặt bàn</a>
 						</li>
 
 						<li class="nav-item">
@@ -44,7 +38,7 @@
 						</li>
 						<hr class="clearfix w-100 d-md-none" style="border-top: 1px solid whitesmoke;">
 					</ul>
-					<form class="form-inline my-2 my-lg-0 justify-content-center" action="./index.html">
+					<form class="form-inline my-2 my-lg-0 justify-content-center" method="POST" action="./index.html">
 						<input class="form-control mr-sm-2" type="text" name="search" id="search-text" placeholder="Nhập món cần tìm" aria-label="Search">
 						<button class="btn btn-outline-success my-2 my-sm-0" id="search-btn" type="button" >Search</button>
 					</form>
@@ -1100,7 +1094,7 @@
 						<hr style="width: 250px; border-radius: 50%; border: 2px solid #2ba904;">
 						<br>
 						<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam illo praesentium sequi in cum, beatae maiores quae qui.</h6>
-						<form class="pt-4" action="./pages/reservation.html">
+						<form class="pt-4" action="./pages/reservation.html" onsubmit="submitform()">
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<input type="text" class="form-control" id="fullname" name="fullname" placeholder="Họ & Tên">

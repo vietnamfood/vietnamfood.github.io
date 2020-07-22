@@ -60,9 +60,6 @@ function filterSelection(namef) {
 }
   
 
-  
-
-
 filterSelection('mainf')
 
 $("li#main-btn").click(function(){
@@ -114,6 +111,32 @@ $('button#search-btn').click(function(){
 	}
 })
 
+
+function submitform(){
+	if (typeof(Storage) !== "undefined") {
+		sessionStorage.setItem("fullname", $('#fullname').val());
+		sessionStorage.setItem("persons", $('#persons').val());
+		sessionStorage.setItem("phonenumber", $('#phonenumber').val());
+		sessionStorage.setItem("date", $('#date').val());
+		sessionStorage.setItem("email", $('#email').val());
+		sessionStorage.setItem("time", $('#time').val());
+	} 
+	else {
+		alert("Xin lỗi webstore không hoạt động")
+	}
+}
+
+function showData(){
+	var table = "<table class='table table-striped shadow-lg p-3 mb-5 bg-white rounded'>" + 
+					"<tr><th>Họ & Tên</th> <td>"+sessionStorage.getItem('fullname')+"</td></tr>"+
+					"<tr><th>Số người tham dự</th> <td>"+sessionStorage.getItem('persons')+"</td></tr>"+
+					"<tr><th>Số điện thoại</th> <td>"+sessionStorage.getItem('phonenumber')+"</td></tr>"+
+					"<tr><th>Ngày</th> <td>"+sessionStorage.getItem('date')+"</td></tr>"+
+					"<tr><th>Email</th> <td>"+sessionStorage.getItem('email')+"</td></tr>"+
+					"<tr><th>Thời gian</th> <td>"+sessionStorage.getItem('time')+"</td></tr>"+
+				"</table>";
+	document.getElementById("reservation-list").innerHTML = table;
+}
 // // Menu click
 
 // // ==================================== main ==================================
